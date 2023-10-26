@@ -1,8 +1,10 @@
 .header {
     display: flex;
     flex-direction: row;
-    background-color: white !Important;
     justify-content: space-between;
+    max-width: 100%;
+    width: 80%;
+
 }
 #g-header{
     background-color: white !Important;
@@ -67,6 +69,7 @@ a{
 
 body{
     width: 100%;
+    margin: 0px;
 
 }
 
@@ -85,8 +88,9 @@ body{
     color: #0f77aa;
 }
 .yellow-font{
-    color: #ffd700;
+    color: #ffd700 !important;
 }
+
 .text-upper{
     text-transform: uppercase;
 }
@@ -334,3 +338,78 @@ body{
     }
 }
 
+
+
+
+
+.top-section{
+    display: flex;
+    flex-direction: row;
+    background-color: #0f77aa;
+    max-width: 100%;
+    width: 100%;
+    justify-content: space-between
+}
+.navbar-top-icon{
+    height: 16px;
+    width: auto;
+    color: white;
+    fill: white !important;
+}
+.navbar-top{
+    display: flex;
+    align-items: center;
+    padding: 0px 8px;
+}
+.navbar-top img{
+    padding-right: 4px;
+}
+.navbar-top p{
+    color: white ;
+    font-size: 16px;
+}
+.right-side{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10%;
+}
+
+
+.left-side{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+}
+.language{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+
+}
+.flag{
+    height: 16px;
+    margin: 0 8px;
+}
+.language p{
+    color: white;
+    padding: 0 20px 0 8px;
+    font-size: 16px;
+}
+.language-change-icon{
+    height: 16px;
+    padding: 0 8px 0 20px;
+}
+.vyhledavac{
+    margin: 0 40px;
+}
+.hledat{
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+}
